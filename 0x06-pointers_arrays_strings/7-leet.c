@@ -13,7 +13,7 @@ char *leet(char *str)
 	{
 		if (str[i] == 'a' || str[i] == 'A')
 		{
-			str[i] = '1';
+			str[i] = '4';
 		}
 		else if (str[i] == 'e' || str[i] == 'E')
 		{
