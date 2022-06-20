@@ -4,7 +4,7 @@
  *@s: string
  *@c: character
  *
- *Return: s + i or NULL
+ *Return: &s[i] or NULL
  */
 char *_strchr(char *s, char c)
 {
@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 	{
 		if (*(s + i) == c)
 		{
-			return (s + i);
+			return (&s[i]);
 		}
 	}
 	return (0);
