@@ -5,7 +5,7 @@
  *@s: string
  *@c: character
  *
- *Return: s[i] or NULL
+ *Return: s + i or NULL
  */
 char *_strchr(char *s, char c)
 {
@@ -18,5 +18,5 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 	}
-	return (NULL);
+	return (0);
 }
