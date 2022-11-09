@@ -1,7 +1,7 @@
 #makefile
 
 CC = gcc
-OBJ = ${SRC:.c=.o}
+OBJ = ${SRC:%.c=%.o}
 NAME = school
 SRC = main.c school.c
 FLAGS = -Wall -Werror -Wextra -pedantic
